@@ -323,7 +323,7 @@ def main():
         except Exception as e:
             print(f"[-] Error in loop: {e}")
             
-        time.sleep(5)
+        break
 
 if __name__ == "__main__":
     main()
